@@ -71,7 +71,7 @@ copyHex(span5)
 
 // Background color change on reload
 function backgroundColorChanger() {
-    const colors = ["#44E0C8", "royalblue", "#A6CF98", "#FFC5C5", "#DCBFFF", "#39A7FF", "#FF8551", "#FF6969", "#ADC4CE"];
+    const colors = ["#44E0C8", "#A6CF98", "#FFC5C5", "#DCBFFF", "#39A7FF", "#FF8551", "#FF6969", "#ADC4CE"];
     const randomNumber = Math.floor(Math.random() * colors.length)
     document.body.style.backgroundColor = colors[randomNumber]
 }
