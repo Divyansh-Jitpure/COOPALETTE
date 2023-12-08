@@ -53,7 +53,7 @@ function copyHex(spanName) {
     spanName.addEventListener("copy", function (event) {
         event.preventDefault();
         if (event.clipboardData) {
-            event.clipboardData.setData("text/plain", spanName.textContent);
+            event.clipboardData.setData("text/plain", spanName.textContent.slice(1));
             spanName.dataset.tooltip = "Copied"
             // root.style.setProperty('--tooltip-color', 'black')
             setTimeout(function () {
