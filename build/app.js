@@ -55,10 +55,10 @@ function copyHex(spanName) {
         if (event.clipboardData) {
             event.clipboardData.setData("text/plain", spanName.textContent);
             spanName.dataset.tooltip = "Copied"
-            root.style.setProperty('--tooltip-color', 'black')
+            // root.style.setProperty('--tooltip-color', 'black')
             setTimeout(function () {
                 spanName.dataset.tooltip = "Click to Copy"
-                root.style.setProperty('--tooltip-color', 'rgba(0, 0, 0, 0.349)')
+                // root.style.setProperty('--tooltip-color', 'rgba(0, 0, 0, 0.349)')
             }, 400)
         }
     });

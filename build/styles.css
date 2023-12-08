@@ -17,6 +17,7 @@ body {
 }
 
 /* variables */
+/* Made this variable to edit it from app.js when coping the hex code*/
 :root {
     --tooltip-color: rgba(0, 0, 0, 0.349);
 }
