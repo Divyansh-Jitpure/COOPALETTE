@@ -34,9 +34,6 @@ main {
 /* Title */
 h1 {
     font-family: 'ubuntu', sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     font-size: 8vh;
     user-select: none;
 }
@@ -55,7 +52,6 @@ img {
     border-radius: 7px;
     overflow: hidden;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
-
 }
 
 /* Cells in the color palette */
